@@ -1,0 +1,27 @@
+.Header {
+    background-color: #f0f8ff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .Header h1 {
+    margin: 0;
+    color: #2f4f4f;
+  }
+  
+  .Header nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .Header nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .Header nav ul li a {
+    text-decoration: none;
+    color: #2f4f4f;
+  }
+  

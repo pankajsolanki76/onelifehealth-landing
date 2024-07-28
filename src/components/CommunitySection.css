@@ -1,0 +1,17 @@
+.community-section {
+    background-color: #fafafa; /* Light Gray */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .community-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #757575; /* Medium Gray */
+  }
+  
+  .community-section p {
+    font-size: 1.2rem;
+    color: #424242; /* Dark Gray */
+  }
+  

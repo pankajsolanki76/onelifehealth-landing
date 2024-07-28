@@ -1,0 +1,92 @@
+/* Navbar Styles */
+header {
+    background: transparent;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: purple; /* Purple */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li {
+    position: relative;
+  }
+  
+  nav ul li a {
+    color: purple; /* Purple */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #5e35b1; /* Darker purple */
+  }
+  
+  nav .menu-icon {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #7e57c2; /* Purple */
+  }
+  
+  nav ul.active {
+    display: flex;
+  }
+  
+  @media (max-width: 768px) {
+    nav ul {
+      display: none;
+      flex-direction: column;
+      background-color: #f7f7f7; /* Light gray */
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      width: 200px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+  
+    nav ul li {
+      width: 100%;
+    }
+  
+    nav ul li a {
+      display: block;
+      padding: 15px;
+      width: 100%;
+      text-align: left;
+    }
+  
+    nav .menu-icon {
+      display: block;
+    }
+  
+    nav ul.active {
+      display: flex;
+    }
+  }
+  

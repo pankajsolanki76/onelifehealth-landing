@@ -1,17 +1,25 @@
 import React from 'react';
-import './App.css';
-import Header from './componets/Header';
-import Main from './componets/Main';
-import Footer from './componets/Footer';
+import Navbar from './components/Navbar';
+import HeroSection from './components/HeroSection';
+import AboutSection from './components/AboutSection';
+import ServicesSection from './components/ServicesSection';
+import ContactSection from './components/ContactSection';
+import CommunitySection from './components/CommunitySection';
+import Footer from './components/Footer';
+import './App.css'; // Ensure this path is correct based on your project structure
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Header />
-      <Main />
+    <div>
+      <Navbar />
+      <HeroSection />
+      <AboutSection />
+      <ServicesSection />
+      <ContactSection />
+      <CommunitySection />
       <Footer />
     </div>
   );
-}
+};
 
 export default App;

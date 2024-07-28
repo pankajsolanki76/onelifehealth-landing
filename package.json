@@ -10,12 +10,12 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.2.0",
     "react-scripts": "5.0.0",
-    "styled-components": "^5.3.3",
-    "axios": "^0.21.1"
+    "styled-components": "^5.3.3"
   },
   "eslintConfig": {
     "extends": [
@@ -38,10 +38,11 @@
   "devDependencies": {
     "cross-env": "^7.0.3",
     "eslint": "^8.0.0",
-    "eslint-plugin-react": "^7.26.0",
+    "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.26.0",
     "eslint-plugin-react-hooks": "^4.3.0",
-    "eslint-config-airbnb": "^19.0.4"
+    "gh-pages": "^6.1.1"
   }
 }

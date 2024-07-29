@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/onelifehealth-landing/static/css/main.6fa67f18.css",
-    "main.js": "/onelifehealth-landing/static/js/main.9e08b926.js",
+    "main.css": "/onelifehealth-landing/static/css/main.79b5b103.css",
+    "main.js": "/onelifehealth-landing/static/js/main.799f6e55.js",
     "index.html": "/onelifehealth-landing/index.html",
-    "main.6fa67f18.css.map": "/onelifehealth-landing/static/css/main.6fa67f18.css.map",
-    "main.9e08b926.js.map": "/onelifehealth-landing/static/js/main.9e08b926.js.map"
+    "main.79b5b103.css.map": "/onelifehealth-landing/static/css/main.79b5b103.css.map",
+    "main.799f6e55.js.map": "/onelifehealth-landing/static/js/main.799f6e55.js.map"
   },
   "entrypoints": [
-    "static/css/main.6fa67f18.css",
-    "static/js/main.9e08b926.js"
+    "static/css/main.79b5b103.css",
+    "static/js/main.799f6e55.js"
   ]
 }
